@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#12345A"/>
+  <!-- Subtle inner gradient glow -->
+  <circle cx="32" cy="32" r="24" fill="url(#navyGrad)" opacity="0.3"/>
+  <!-- Modern Geometric Medical Cross with Heart/Caring Curve -->
+  <!-- Vertical bar -->
+  <path d="M26 14H38C39.1046 14 40 14.8954 40 16V48C40 49.1046 39.1046 50 38 50H26C24.8954 50 24 49.1046 24 48V16C24 14.8954 24.8954 14 26 14Z" fill="#FFFFFF"/>
+  <!-- Horizontal bar -->
+  <path d="M14 26H50C51.1046 26 52 26.8954 52 28V36C52 37.1046 51.1046 38 50 38H14C12.8954 38 12 37.1046 12 36V28C12 26.8954 12.8954 26 14 26Z" fill="#FFFFFF"/>
+  <!-- Vibrant Medical Teal Caring Pulse / Embracing Arc -->
+  <path d="M22 32C22 26.4772 26.4772 22 32 22C37.5228 22 42 26.4772 42 32C42 37.5228 37.5228 42 32 42" stroke="#16A6A1" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Central Pulse Point / Vital Core -->
+  <circle cx="32" cy="32" r="3.5" fill="#16A6A1"/>
+  <defs>
+    <radialGradient id="navyGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(24)">
+      <stop stop-color="#16A6A1"/>
+      <stop offset="1" stop-color="#12345A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
